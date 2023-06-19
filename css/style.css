@@ -189,3 +189,9 @@ footer{
 
 /* Specific */
 
+main>div:nth-of-type(even){
+    background: var(--color7);
+}
+.rev{
+    flex-direction: row-reverse;
+}
