@@ -5,7 +5,41 @@
     padding: 0;
 }
 
+/* SPECIAL SELECTORS */
+
+:root{
+
+    /* colors */
+    var(--bg-color-header-1,background-color: #add8e6;)
+
+    /* spacing */
+    
+}
+
+nav>ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+
+nav li{
+    display: inline;
+}
 /* UTILITIES */
+
+.container{
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.between{
+    justify-content: space-between;
+}
 
 /* DEBUG */
 
