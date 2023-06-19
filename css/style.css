@@ -31,7 +31,7 @@
     --height2:50px;
     --height3:700px;
     --height4:400px;
-    --height5:500px;
+    --height5:600px; /* 2col layout height */
     --height6:900px;
     
     
@@ -76,11 +76,14 @@ footer{
 .w25{
     width: 25%;
 }
+.w30{
+    width: 30%;
+}
 .w70{
     width: 70%;
 }
-.w30{
-    width: 30% ;
+.w40{
+    width: 40% ;
 }
 .w100{
     width: 100% ;
