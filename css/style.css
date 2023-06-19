@@ -10,10 +10,22 @@
 :root{
 
     /* colors */
-    var(--bg-color-header-1,background-color: #add8e6;)
-
-    /* spacing */
+    --color1:#add8e6;
+    --color2:#daa520;
+    --color3:#00008b;
+    --color4:#ee82ee;
+    --color5:#1e90ff;
+    --color6:#ffc0cb;
+    --color7:#d3d3d3;
+    --color8:#228b22;
+    --color9:#23272a;
+    --color10:#f08080;
+    --color11:#20b2aa;
+    --color12:#ffb6c1;
     
+    
+    /* spacing */
+
 }
 
 nav>ul{
@@ -49,3 +61,5 @@ nav li{
 .deb1{
     border: 2px dotted rgb(255, 0, 0);
 }
+
+/* Specific */
