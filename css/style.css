@@ -25,14 +25,26 @@
     
     
     /* spacing */
-
     --height1:30px;
     --height2:50px;
-    --height3:25px;
-    --height4:25px;
-    --height5:25px;
-    --height6:250px;
-
+    --height3:60px;
+    --height4:400px;
+    --height5:200px;
+    --height6:500px;
+    
+    
+    --width1:30px;
+    --width2:50px;
+    --width3:200px;
+    --width4:600px;
+    --width5:900px;
+    --width6:0px;
+    
+    --y-padding1:10px;
+    --y-padding2:40px;
+    --y-padding3:20px;
+    --y-padding4:25px;
+    --y-padding5:30px;
 }
 
 nav>ul{
@@ -71,16 +83,53 @@ nav li{
     justify-content: space-between;
 }
 
+.x-center{
+    justify-content: center;
+}
+
 .y-center{
     align-items: center;
 }
 
 .height-1{
-    height: var(--height1)
+    height: var(--height1);
 }
 .height-2{
-    height: var(--height2)
+    height: var(--height2);
 }
+.height-3{
+    height: var(--height3);
+}
+.height-4{
+    height: var(--height4);
+}
+.height-5{
+    height: var(--height5);
+}
+.height-6{
+    height: var(--height6);
+}
+.width-1{
+    width: var(--width1);
+}
+.width-2{
+    width: var(--width2);
+}
+.width-3{
+    width: var(--width3);
+}
+.width-4{
+    width: var(--width4);
+}
+.width-5{
+    width: var(--width5);
+}
+.width-6{
+    width: var(--width6);
+}
+
+
+
 
 .bg1{
     background: var(--color1);
@@ -119,6 +168,13 @@ nav li{
     background: var(--color12);
 }
 
+
+.y-pad1{
+    padding: var(--y-padding1) 0 ;
+}
+.y-pad2{
+    padding: var(--y-padding2) 0 ;
+}
 /* DEBUG */
 
 .deb{
@@ -130,7 +186,3 @@ nav li{
 
 /* Specific */
 
-
-.aaaa{
-    padding: 10px 0;
-}
