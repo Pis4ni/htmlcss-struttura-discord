@@ -27,8 +27,8 @@
     
     
     /* spacing */
-    --height1:30px;
-    --height2:50px;
+    --height1:40px;
+    --height2:80px;
     --height3:700px;
     --height4:400px;
     --height5:600px; /* 2col layout height */
@@ -39,7 +39,7 @@
     --width1:900px;
 
     
-    --y-padding1:10px;
+    --y-padding1:20px;
     --y-padding2:40px;
     --y-padding3:5px;
 
@@ -188,14 +188,6 @@ footer{
 .spacing{
     margin: var(--y-padding2) auto 0 auto;
 }
-/* DEBUG */
-
-.deb{
-    border: 4px dotted black;
-}    
-.deb1{
-    border: 2px dotted rgb(255, 0, 0);
-}    
 
 /* Specific */
 
@@ -209,3 +201,14 @@ main>div:nth-of-type(even){
 .under-border{
     border-bottom:2px solid var(--color7) ;
 }
+/* DEBUG */
+
+.deb{
+    border: 4px dotted black;
+}    
+.deb1{
+    border: 2px dotted rgb(255, 0, 0);
+}    
+.deb3{
+    border: 2px dotted rgb(255, 255, 255);
+}    
