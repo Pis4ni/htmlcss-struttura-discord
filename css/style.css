@@ -22,6 +22,8 @@
     --color10:#f08080;
     --color11:#20b2aa;
     --color12:#ffb6c1;
+    --color13:#7fffd4;
+    
     
     
     /* spacing */
@@ -57,6 +59,10 @@ nav li{
     display: inline;
 }
 
+footer{
+    background-color: var(--color9);
+}
+
 /* UTILITIES */
 
 .container{
@@ -71,14 +77,17 @@ nav li{
 .w20{
     width: 20%;
 }
+.w25{
+    width: 25%;
+}
 .w70{
     width: 70%;
 }
 .w30{
-    width: 30% 
+    width: 30% ;
 }
 .w100{
-    width: 100% 
+    width: 100% ;
 }
 
 
@@ -175,6 +184,9 @@ nav li{
 }
 .bg12{
     background: var(--color12);
+}
+.bg13{
+    background: var(--color13);
 }
 
 
