@@ -44,7 +44,9 @@
     --y-padding3:5px;
 
 }
-
+nav{
+    text-align: center;
+}
 nav>ul{
     list-style-type: none;
     margin: 0;
@@ -87,6 +89,10 @@ footer{
 }
 .w100{
     width: 100% ;
+}
+
+.h100{
+    height: 100%;
 }
 
 
