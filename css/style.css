@@ -35,18 +35,14 @@
     --height6:900px;
     
     
-    --width1:30px;
-    --width2:50px;
-    --width3:200px;
-    --width4:600px;
-    --width5:900px;
-    --width6:0px;
+
+    --width1:900px;
+
     
     --y-padding1:10px;
     --y-padding2:40px;
     --y-padding3:20px;
-    --y-padding4:25px;
-    --y-padding5:30px;
+
 }
 
 nav>ul{
@@ -127,23 +123,9 @@ footer{
 .height-6{
     height: var(--height6);
 }
+
 .width-1{
     width: var(--width1);
-}
-.width-2{
-    width: var(--width2);
-}
-.width-3{
-    width: var(--width3);
-}
-.width-4{
-    width: var(--width4);
-}
-.width-5{
-    width: var(--width5);
-}
-.width-6{
-    width: var(--width6);
 }
 
 
