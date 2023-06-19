@@ -29,8 +29,8 @@
     --height2:50px;
     --height3:60px;
     --height4:400px;
-    --height5:200px;
-    --height6:500px;
+    --height5:500px;
+    --height6:900px;
     
     
     --width1:30px;
@@ -70,6 +70,15 @@ nav li{
 }
 .w20{
     width: 20%;
+}
+.w70{
+    width: 70%;
+}
+.w30{
+    width: 30% 
+}
+.w100{
+    width: 100% 
 }
 
 
