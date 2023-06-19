@@ -1,0 +1,17 @@
+/* GENERAL */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* UTILITIES */
+
+/* DEBUG */
+
+.deb{
+    border: 4px dotted black;
+}
+.deb1{
+    border: 2px dotted rgb(255, 0, 0);
+}
