@@ -41,7 +41,7 @@
     
     --y-padding1:10px;
     --y-padding2:40px;
-    --y-padding3:20px;
+    --y-padding3:5px;
 
 }
 
@@ -178,6 +178,13 @@ footer{
 .y-pad2{
     padding: var(--y-padding2) 0 ;
 }
+
+.y-pad3{
+    padding: var(--y-padding1) 0 var(--y-padding2) 0;
+}
+.spacing{
+    margin: var(--y-padding2) auto 0 auto;
+}
 /* DEBUG */
 
 .deb{
@@ -194,4 +201,8 @@ main>div:nth-of-type(even){
 }
 .rev{
     flex-direction: row-reverse;
+}
+
+.under-border{
+    border-bottom:2px solid var(--color7) ;
 }
