@@ -24,9 +24,8 @@
     --color12:#ffb6c1;
     --color13:#7fffd4;
     
-    
-    
     /* spacing */
+
     --height1:40px;
     --height2:80px;
     --height3:700px;
@@ -34,10 +33,7 @@
     --height5:600px; /* 2col layout height */
     --height6:900px;
     
-    
-
     --width1:900px;
-
     
     --y-padding1:20px;
     --y-padding2:40px;
@@ -136,7 +132,6 @@ footer{
 .width-1{
     width: var(--width1);
 }
-
 
 
 
